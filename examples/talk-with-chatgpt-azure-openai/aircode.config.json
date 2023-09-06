@@ -1,0 +1,13 @@
+{
+  "name": "Talk with ChatGPT from Azure",
+  "runtime": "node/v16",
+  "retion": "US",
+  "envs": [
+    "AZURE_OPENAI_ENDPOINT",
+    "AZURE_OPENAI_KEY",
+    "AZURE_OPENAI_DEPLOYMENT",
+    "accessKey",
+    "vmToken"
+  ],
+  "typescript": false
+}

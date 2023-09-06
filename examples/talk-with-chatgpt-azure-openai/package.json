@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aircode": "0.6.1",
+    "aircode-app": "0.2.0",
+    "node-fetch": "2.7.0",
+    "uuidv4": "6.2.13"
+  }
+}
