@@ -47,3 +47,16 @@ If you have an existing JavaScript application, you can also enable TypeScript. 
 <ACImage src="/_images/1688015952700.png" mode="light"/>
 <ACImage src="/_images/1688015974786.png" mode="dark"/>
 
+# Importing ES Module Modules in TypeScript {#esm}
+
+AirCode supports importing ECMAScript Modules(ESM) in TypeScript. To import ESM, you need to modify your `tsconfig.json` configuration by changing `moduleResolution` to `"NodeNext"`. Then, change the file extension of your cloud function file from `.ts` to `.mts`.
+
+```json
+{
+  ...
+  "compilerOptions": {
+    ...
+    "moduleResolution": "NodeNext"
+  }
+}
+```

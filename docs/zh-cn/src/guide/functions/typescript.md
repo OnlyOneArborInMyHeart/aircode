@@ -46,3 +46,18 @@ TypeScript 提供了以下便利:
 
 <ACImage src="/_images/1688015952700.png" mode="light"/>
 <ACImage src="/_images/1688015974786.png" mode="dark"/>
+
+## 在 TypeScript 中引入 ES Module 模块 {#esm}
+
+AirCode 支持在 TypeScript 中引入 ESM。要引入 ESM，你需要修改 `tsconfig.json` 配置，将 `moduleResolution` 修改为 `"NodeNext"`。
+然后再将你的云函数文件扩展名从 `.ts` 修改为 `.mts`。
+
+```json
+{
+  ...
+  "compilerOptions": {
+    ...
+    "moduleResolution": "NodeNext"
+  }
+}
+```
