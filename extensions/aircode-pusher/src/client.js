@@ -69,3 +69,5 @@ export default class Pusher {
     return this.#channels;
   }
 }
+
+export {Pusher};
