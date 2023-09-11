@@ -51,13 +51,6 @@ const nav: DefaultTheme.NavItem[] = [
     activeMatch: '^/help/',
     link: '/help/',
   },
-  {
-    text: 'Language',
-    items: [
-      { text: '简体中文', link: 'https://docs-cn.aircode.io' },
-      { text: 'English', link: '/' },
-    ],
-  },
 ];
 
 export default nav;
