@@ -20,7 +20,7 @@ export default {
   Layout: h(DefaultTheme.Layout, null, {
     'nav-bar-content-before': () => h(Documate, {
       endpoint: 'https://xcy1vqep63.us.aircode.run/ask',
-    },)
+    }),
   }),
   enhanceApp(ctx: EnhanceAppContext) {
     DefaultTheme.enhanceApp(ctx)
