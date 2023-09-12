@@ -7,5 +7,4 @@ package-lock.json
 .test
 .db
 .meta
-pnpm-lock.*
 **/node_modules

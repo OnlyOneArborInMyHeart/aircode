@@ -15,7 +15,7 @@
     "@types/mixpanel-browser": "^2.47.0",
     "typescript": "^4.7.4",
     "vitepress": "1.0.0-alpha.63",
-    "vue": "^3.2.37"
+    "vue": "^3.3.4"
   },
   "homepage": "https://docs.aircode.io",
   "repository": {
