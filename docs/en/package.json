@@ -4,7 +4,7 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "yarn docs:dev",
+    "dev": "pnpm docs:dev",
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build . && cp vercel.json .vitepress/dist",
     "docs:serve": "vitepress serve .",
