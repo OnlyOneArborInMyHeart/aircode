@@ -1,0 +1,7 @@
+{
+  "name": "Simple command line Slack Bot",
+  "runtime": "node/v18",
+  "retion": "US",
+  "envs": [],
+  "typescript": true
+}
