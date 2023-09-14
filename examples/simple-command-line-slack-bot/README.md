@@ -4,7 +4,7 @@ Interacting your Slack with slash commands by typing string like below:
 
 ![screenshot-slash-command-line.png](https://s2.loli.net/2023/09/14/GkYqd2BFgpACPHs.png)
 
-## Getting Started with Slash Commands
+## Getting Started
 
 Creating a command App, just need three things:
 
@@ -12,13 +12,13 @@ Creating a command App, just need three things:
 - Creating a Slack App and named your commands
 - Responding to commands
 
-## Preparing your AirCode App to receive Commands
+## Preparing your AirCode App to receive commands
 
 - Click [![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fsimple-command-line-slack-bot&appname=simple%20command%20line%20slack%20bot) get a copy as your app, then Deploy this app to online, we need an invoke URL like below:
 
 ![deploy.png](https://s2.loli.net/2023/09/14/Zs8QMrCIfShJv5B.png)
 
-## Creating Slack App and command
+## Creating Slack app and commands
 
 1.go [api.slack.com](https://api.slack.com/apps?new_app=1) create an new app.
 
@@ -34,7 +34,7 @@ Creating a command App, just need three things:
 
 ![slash-command-7.png](https://s2.loli.net/2023/09/14/dD3FS8zVptmI1Jj.png)
 
-## Responding to Commands
+## Responding to commands
 
 In this example, when user use command `/hello`, we response `world`: 
 
