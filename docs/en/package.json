@@ -4,16 +4,18 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "yarn docs:dev",
+    "dev": "pnpm docs:dev",
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build . && cp vercel.json .vitepress/dist",
-    "docs:serve": "vitepress serve ."
+    "docs:serve": "vitepress serve .",
+    "documate:upload": "documate upload"
   },
   "devDependencies": {
+    "@documate/documate": "^0.0.5",
     "@types/mixpanel-browser": "^2.47.0",
     "typescript": "^4.7.4",
     "vitepress": "1.0.0-alpha.63",
-    "vue": "^3.2.37"
+    "vue": "^3.3.4"
   },
   "homepage": "https://docs.aircode.io",
   "repository": {
@@ -22,6 +24,7 @@
     "directory": "docs/en"
   },
   "dependencies": {
+    "@documate/vue": "^0.0.15",
     "axios": "^1.4.0",
     "medium-zoom": "^1.0.8",
     "mixpanel-browser": "^2.47.0"

@@ -85,6 +85,57 @@ Every function's exports should have a return value, and this value will be retu
 Circular references in the return value should be avoided, otherwise it will cause output errors.
 :::
 
+### Object Response {#object-response}
+
+The return value can be an object, and the object will be converted to JSON and returned as the Response Body.
+
+```js
+module.exports = async function(params, context) {
+  return {
+    message: 'Hi, AirCode.',
+  };
+}
+```
+
+The response body will be:
+
+```json
+{
+  "message": "Hi, AirCode."
+}
+```
+
+### Steaming Response {#streaming-response}
+
+You can return any readable stream as the response body, such as a file stream, a response from AI services, etc. The client can consume the stream in real time.
+
+Here is an example of returning the response from OpenAI as a stream:
+
+```js
+const OpenAI = require('openai');
+const { OpenAIStream }  = require('ai');
+
+module.exports = async function(params, context) {
+  const { messages } = params;
+  
+  const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+  });
+  // Get the OpenAI response
+  const response = await openai.chat.completions.create({
+    model: 'gpt-4',
+    stream: true,
+    messages,
+  });
+
+  // Transform the response into a readable stream
+  const stream = OpenAIStream(response);
+
+  // Return the stream as response, which can be consumed by the client
+  return stream;
+}
+```
+
 ## Handle Async Tasks {#handle-async-tasks}
 
 Because the exported function is `async`, we recommend using `await` to handle async tasks such as HTTP requests, `Promise` tasks, etc.
