@@ -26,7 +26,7 @@ Creating a Slack command app, just need three things:
 
 ![slash-command-line-3.png](https://s2.loli.net/2023/09/14/K3kO2fV9YSneHLs.png)
 
-2.Slack send a payload to the `Request URL`, when the command is invoked by a user. Paste and the URL you got from AirCode after you deployed the `hello.ts` function in the first step.
+2.Slack send a payload to the `Request URL`, when the command is invoked by a user. Paste the URL you got from AirCode after you deployed the `hello.ts` function in the first step.
 
 ![slash-command-5.png](https://s2.loli.net/2023/09/14/yJtKXpRSICGwOji.png)
 
