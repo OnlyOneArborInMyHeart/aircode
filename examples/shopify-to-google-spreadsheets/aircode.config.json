@@ -1,0 +1,10 @@
+{
+  "name": "shopify to google spreadsheets",
+  "runtime": "node/v18",
+  "retion": "US",
+  "envs": [
+    "SHOPIFY_TOKEN",
+    "SPREAD_SHEET_ID"
+  ],
+  "typescript": false
+}
