@@ -37,6 +37,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '使用 TypeScript', link: '/guide/functions/typescript'},
         { text: '云函数运行时', link: '/reference/server/functions-runtime' },
         { text: '云函数 API', link: '/reference/server/functions-api' },
+        { text: '静态资源请求', link: '/reference/server/functions-resource' },
         {
           text: '高级功能',
           items: [
