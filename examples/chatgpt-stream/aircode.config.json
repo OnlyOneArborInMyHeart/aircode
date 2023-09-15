@@ -1,0 +1,7 @@
+{
+  "name": "ChatGPT Stream",
+  "runtime": "node/v18",
+  "retion": "US",
+  "envs": [],
+  "typescript": false
+}
