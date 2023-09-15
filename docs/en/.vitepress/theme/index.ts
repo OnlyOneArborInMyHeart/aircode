@@ -9,19 +9,19 @@ import ListBoxContainer from './components/ListBoxContainer.vue';
 import ListBox from './components/ListBox.vue';
 import ACImage from './components/ACImage.vue';
 
-// import { h } from 'vue';
-// import Documate from '@documate/vue'
-// import '@documate/vue/dist/style.css'
+import { h } from 'vue';
+import Documate from '@documate/vue'
+import '@documate/vue/dist/style.css'
 
 const zoom = ref<Zoom | null>(null);
 
 export default {
   ...DefaultTheme,
-  // Layout: h(DefaultTheme.Layout, null, {
-  //   'nav-bar-content-before': () => h(Documate, {
-  //     endpoint: 'https://75qxny6bta.us.aircode.run/ask',
-  //   }),
-  // }),
+  Layout: h(DefaultTheme.Layout, null, {
+    'nav-bar-content-before': () => h(Documate, {
+      endpoint: 'https://75qxny6bta.us.aircode.run/ask',
+    }),
+  }),
   enhanceApp(ctx: EnhanceAppContext) {
     DefaultTheme.enhanceApp(ctx)
 
