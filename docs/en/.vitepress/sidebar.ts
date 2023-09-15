@@ -37,6 +37,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'Using TypeScript', link: '/guide/functions/typescript' },
         { text: 'Function Runtime', link: '/reference/server/functions-runtime' },
         { text: 'Function API', link: '/reference/server/functions-api' },
+        { text: 'Static Resources', link: '/reference/server/functions-resource' },
         {
           text: 'Advanced',
           items: [

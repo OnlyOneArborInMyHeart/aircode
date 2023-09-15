@@ -1,5 +1,5 @@
 ---
-title: Static Resource Requests | AirCode Docs
+title: Static Resources | AirCode Docs
 description: AirCode supports static resource files by default, and files in the directory can be directly requested.
 ---
 
