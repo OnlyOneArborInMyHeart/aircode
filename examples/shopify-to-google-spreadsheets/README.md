@@ -66,7 +66,7 @@ Before you started, make sure you have the following:
 
 3. Setting up your shopify app:
 
-  - Switch to `Configuration Tab`, add access permission of  `read_orders`, `read_product` and `read_customer`.
+  - Switch to `Configuration Tab`, add access permission of  `read_orders`, `read_products` and `read_customers`.
 
 <img src="https://aircode-yvo.b-cdn.net/resource/6-w7n9l9d44w9.jpg" width="400">
 
