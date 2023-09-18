@@ -57,7 +57,7 @@ Before you started, make sure you have the following:
 
 1. Go to the dashboard of your [Shopify Partners account](https://www.shopify.com/partners), create a new store, or use an existing one.
 
-2. Go to the admin console of your store, 
+2. Go to the admin console of your store.
 
   - Click the `Settings > Apps and sales channels`
   - Then click the `Develop apps` button.
