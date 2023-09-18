@@ -88,7 +88,7 @@ Before you started, make sure you have the following:
 
 2. Open the project and set two Environments:
 
-  - SHOPIFY_TOKEN: The shopify admint api access token you just created.
+  - SHOPIFY_TOKEN: The shopify admin api access token you just created.
   - SPREAD_SHEET_ID: The google spreadsheet' ID.
 
 <img src="https://aircode-yvo.b-cdn.net/resource/10-kf8o51gk278.jpg" width="450">
