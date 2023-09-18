@@ -20,7 +20,7 @@ Before you started, make sure you have the following:
 
 2. Click the Credentials in APIs & Services Page
 
-  - Click the `CREATE CREDENTIALS` button.
+  - Click the `CREATE CREDENTIALS` button and create a `Service account`.
   - When the new credentials created, copy the email show in the service accounts.
 
 <img src="https://aircode-yvo.b-cdn.net/resource/2-bc7bw4blawh.png" width="450">
