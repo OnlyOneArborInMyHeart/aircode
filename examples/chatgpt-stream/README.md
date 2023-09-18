@@ -6,6 +6,8 @@ Easily get a copy and launch your app on [AirCode](https://aircode.io/) by click
 
 ## Consume Stream from Frontend
 
+Set the environment variable `OPENAI_API_KEY` to your own OpenAI API Key, and then click deploy.
+
 After deploy, get the function url, run code to consume your stream:
 
 ```js
