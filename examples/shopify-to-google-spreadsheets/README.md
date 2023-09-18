@@ -39,7 +39,7 @@ Before you started, make sure you have the following:
 
 <img src="https://aircode-yvo.b-cdn.net/resource/8-brke2kbvpd.jpg" width="350">
 
- - You should save the json file content, and use it later in the aircode project.
+ - You should save the json file content, and use it later in the AirCode project.
 
 4. Go to the [Google Sheets](https://docs.google.com/spreadsheets/u/0/) Page and create a new spreadsheet.
 
