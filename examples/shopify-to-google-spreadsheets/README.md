@@ -97,7 +97,7 @@ Before you started, make sure you have the following:
 
   - Copy the content of the google cloud api credentials file you just download.
 
-<img src="https://aircode-yvo.b-cdn.net/resource/11-xh0roq8lyri.jpg">
+<img src="https://aircode-yvo.b-cdn.net/resource/11-xh0roq8lyri.jpg" width="450">
 
 4. Create a schedule job that runs every miniute.
 
