@@ -11,7 +11,7 @@ After deploy, get the function url, run code to consume your stream:
 ```js
 const axios = require('axios');
 
-axios.post('https://kuc4j75bym.us.aircode.run/ask', {
+axios.post('https://123.us.aircode.run/hello', {
   question: "How to query database from aircode.db",
 },  {
   responseType: 'stream'
