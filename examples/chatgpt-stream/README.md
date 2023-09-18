@@ -6,12 +6,14 @@ Easily get a copy and launch your app on [AirCode](https://aircode.io/) by click
 
 ## Consume Stream from Frontend
 
+Set the environment variable `OPENAI_API_KEY` to your own OpenAI API Key, and then click deploy.
+
 After deploy, get the function url, run code to consume your stream:
 
 ```js
 const axios = require('axios');
 
-axios.post('https://kuc4j75bym.us.aircode.run/ask', {
+axios.post('https://123.us.aircode.run/hello', {
   question: "How to query database from aircode.db",
 },  {
   responseType: 'stream'

@@ -6,9 +6,6 @@ module.exports = async function (params, context) {
 
   const { question } = params;
 
-  const res = await fetch('https://nodejs.org/api/documentation.json');
-  const data = await res.json();
-
   const response = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
     headers: {
@@ -21,13 +18,13 @@ module.exports = async function (params, context) {
       messages: [
         {
           role: 'user',
-          // The message will be 'Say hello.' unless you provide a message in the request body.
           content: ` ${question}`,
         },
       ],
       temperature: 0,
       max_tokens: 1000,
       n: 1,
+      // set stream as true to enable streaming
       stream: true,
     }),
   });
