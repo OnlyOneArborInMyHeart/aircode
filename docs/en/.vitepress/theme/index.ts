@@ -4,7 +4,6 @@ import { EnhanceAppContext, useRouter } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import mediumZoom, { Zoom } from 'medium-zoom';
 import mixpanel from 'mixpanel-browser';
-import './custom.css';
 import ListBoxContainer from './components/ListBoxContainer.vue';
 import ListBox from './components/ListBox.vue';
 import ACImage from './components/ACImage.vue';
@@ -12,6 +11,8 @@ import ACImage from './components/ACImage.vue';
 import { h } from 'vue';
 import Documate from '@documate/vue'
 import '@documate/vue/dist/style.css'
+
+import './custom.css';
 
 const zoom = ref<Zoom | null>(null);
 

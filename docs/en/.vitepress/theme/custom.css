@@ -6,6 +6,8 @@
   --vp-code-line-highlight-color: rgba(0, 0, 0, 0.1);
   --vp-code-copy-code-hover-bg: rgba(0, 0, 0, 0.05);
   --vp-code-copy-code-active-text: var(--vp-c-text-2);
+
+  --dm-color-brand: var(--vp-c-brand);
 }
 
 .dark {
@@ -13,6 +15,8 @@
   --vp-c-brand-dark: #4749FF;
   --vp-code-line-highlight-color: rgba(0, 0, 0, 0.5);
   --vp-code-copy-code-hover-bg: rgba(255, 255, 255, 0.05);
+
+  --dm-color-brand: var(--vp-c-brand);
 }
 
 .dark img.auto-dark-img {
