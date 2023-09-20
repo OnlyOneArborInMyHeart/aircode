@@ -1,8 +1,7 @@
 {
   "name": "Resend",
   "runtime": "node/v16",
-  "timeout": 60,
-  "region": "US",
+  "retion": "US",
   "envs": [
     "RESEND_API_KEY"
   ],
