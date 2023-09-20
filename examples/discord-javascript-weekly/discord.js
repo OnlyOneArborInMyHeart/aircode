@@ -13,10 +13,13 @@ const format = (data) => {
   try {
     data.forEach((obj, i) => {
       message.embeds[0].fields.push({
-        name: `${i + 1}. ${obj.title}`,
-        value: obj.url,
+        name: ``, value: `${i + 1}. [${obj.title}](${obj.url})`,
       });
     });
+    message.embeds[0].fields.push({ name: '', value: '---------------' });
+    message.embeds[0].fields.push({ name: '', value: '>> [Discord JavaScript Weekly Bot GitHub](https://github.com/AirCodeLabs/aircode/tree/main/examples/discord-javascript-weekly)' });
+
+     
   } catch (err) {
     console.log(err);
   }
