@@ -20,6 +20,13 @@ export default {
   Layout: h(DefaultTheme.Layout, null, {
     'nav-bar-content-before': () => h(Documate, {
       endpoint: 'https://75qxny6bta.us.aircode.run/ask',
+      predefinedQuestions: [
+        'How do I get started with AirCode?',
+        'How do I create cloud functions in AirCode?',
+        'How do I deploy cloud functions in AirCode?',
+        'How do I use database in AirCode?',
+        'How do I create scheculed tasks in AirCode?',
+      ]
     }),
   }),
   enhanceApp(ctx: EnhanceAppContext) {
