@@ -10,6 +10,8 @@
 - seed: The `seed` parameter is used as the numerical value for the random seed in Stable Diffusion.
 - caption: The Stable Diffusion Prompts.
 
+__Note: This example will cache the image in AirCode's built-in database based on the caption and seed, so that it can be quickly retrieved when the user accesses it with the same parameters next time.__
+
 ## Quick Started
 
 1. Get a copy of the sample project:
