@@ -3,7 +3,7 @@ import aircode from 'aircode';
 import fetch from "node-fetch";
 
 const API_URL =
-  "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1";
+  "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0";
 
 const headers = {
   Authorization: `Bearer ${process.env.API_TOKEN}`,
