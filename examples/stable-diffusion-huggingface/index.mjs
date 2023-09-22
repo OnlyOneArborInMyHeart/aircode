@@ -3,7 +3,7 @@ import aircode from 'aircode';
 import fetch from "node-fetch";
 
 const API_URL =
-  "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0";
+  "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1";
 
 const headers = {
   Authorization: `Bearer ${process.env.API_TOKEN}`,
@@ -14,7 +14,7 @@ export default async function (params, context) {
   const response = await fetch(API_URL, {
     headers,
     method: "POST",
-    body: JSON.stringify({inputs: caption}),
+    body: JSON.stringify({inputs: caption, seed: Math.random()}),
   });
   const result = await response.arrayBuffer();
   const buffer = Buffer.from(new Uint8Array(result));
