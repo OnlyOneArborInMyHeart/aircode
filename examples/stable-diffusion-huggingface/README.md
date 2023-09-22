@@ -2,7 +2,7 @@
 
 ## Online Demo:
 
-[Click me to generate a picture](https://5rg3bjkd6z.us.aircode.run/index?direct_output=1&caption=approaching%20perfection,%20dynamic,%20highly%20detailed,%20artstation,%20concept%20art,%20smooth,%20sharp%20focus,%20illustration,%20art%20by%20Artemisia%20Gentileschi,%20a%20beautiful%20the%20cloud%20elf%20queen%20busks%20on%20the%20streets%20of%20new%20york,%20playing%20guitar,%20singing)
+[Click me to generate a picture](https://5rg3bjkd6z.us.aircode.run/index?direct_output=1&seed=100&caption=approaching%20perfection,%20dynamic,%20highly%20detailed,%20artstation,%20concept%20art,%20smooth,%20sharp%20focus,%20illustration,%20art%20by%20Artemisia%20Gentileschi,%20a%20beautiful%20the%20cloud%20elf%20queen%20busks%20on%20the%20streets%20of%20new%20york,%20playing%20guitar,%20singing)
 
 ### Request Parameters
 
