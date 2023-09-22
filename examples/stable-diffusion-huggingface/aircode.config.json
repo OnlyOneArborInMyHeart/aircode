@@ -1,0 +1,9 @@
+{
+  "name": "stable diffusion huggingface",
+  "runtime": "node/v18",
+  "retion": "US",
+  "envs": [
+    "API_TOKEN"
+  ],
+  "typescript": false
+}
