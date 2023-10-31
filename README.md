@@ -31,11 +31,15 @@
 
 To get a better understanding of how AirCode can be used in real-world applications, check out our examples:
 
-- [Build a ChatGPT Plugin](./examples/chatgpt-plugin)
-- [Slack ChatGPT Bot](./examples/slack-chatgpt-app/)
-- [Sending Email with Resend](./examples/resend)
-- [Todolist Web App](./examples/web-app-todolist/)
-- [More](./examples#readme)
+- [Integrate with ChatGPT and consume the response as a stream.](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-stream)
+- [Add an AI chat dialog into your documentation site, leveraging your own content.](https://github.com/AirCodeLabs/documate)
+- [Build a ChatGPT plugin from scratch.](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin)
+- [Automatically sync Shopify data to Google spreadsheets at scheduled intervals.](https://github.com/AirCodeLabs/aircode/tree/main/examples/shopify-to-google-spreadsheets)
+- [Automatically crawls and pushes JavaScript Weekly to Discord groups every week.](https://github.com/AirCodeLabs/aircode/tree/main/examples/discord-javascript-weekly)
+- [A Slack App that can be interacted with via slash commands.](https://github.com/AirCodeLabs/aircode/tree/main/examples/simple-command-line-slack-bot)
+- [A lightweight service to send emails with Resend.](https://github.com/AirCodeLabs/aircode/tree/main/examples/resend)
+- [Let your users subscribe to your blog and send email notifications to subscribers.](https://github.com/AirCodeLabs/aircode/tree/main/examples/blog-subscription-and-pushing)
+- [Build and deploy your Express App in seconds.](https://github.com/AirCodeLabs/aircode/tree/main/examples/express-markdown)
 
 ## Getting Started
 
@@ -49,11 +53,11 @@ For a comprehensive understanding of AirCode's features and capabilities, visit 
 
 Need help or want to connect with other AirCode users? Check out these community and support resources:
 
-- [Community Forum](https://github.com/AirCodeLabs/aircode/discussions)
-- [GitHub Issues](https://github.com/aircodelabs/aircode/issues)
-- [Discord](https://discord.com/invite/XrMVdYdEuY)
-- [Slack](https://join.slack.com/t/aircodecommunity/shared_invite/zt-1zve3siau-c6Y7DvLRJ3RtZVnaXJWX3A)
-- [Email Support](https://docs.aircode.io/help)
+[Community Forum](https://github.com/AirCodeLabs/aircode/discussions) · 
+[GitHub Issues](https://github.com/aircodelabs/aircode/issues) · 
+[Discord](https://discord.com/invite/XrMVdYdEuY) · 
+[Slack](https://join.slack.com/t/aircodecommunity/shared_invite/zt-1zve3siau-c6Y7DvLRJ3RtZVnaXJWX3A) · 
+[Email Support](https://docs.aircode.io/help)
 
 ## Contributing
 
