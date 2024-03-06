@@ -60,6 +60,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'Find Data', link: '/guide/database/find' },
         { text: 'Update Data', link: '/guide/database/update' },
         { text: 'Delete Data', link: '/guide/database/delete' },
+        { text: 'Export Data', link: '/guide/database/export' },
         { text: 'Database API', link: '/reference/server/database-api' },
         {
           text: 'Advanced',

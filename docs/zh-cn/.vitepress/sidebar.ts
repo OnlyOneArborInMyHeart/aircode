@@ -65,6 +65,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '查询数据', link: '/guide/database/find' },
         { text: '更新数据', link: '/guide/database/update' },
         { text: '删除数据', link: '/guide/database/delete' },
+        { text: '数据导出', link: '/guide/database/export' },
         // { text: '在网页中管理数据', link: '/guide/database/web-management' },
         { text: '数据库 API', link: '/reference/server/database-api' },
         {
